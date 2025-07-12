@@ -3,7 +3,7 @@ Code for creating input data to ML/DL models for HYSETS catchments
 
 # HYSETS Input Processing for ML/DL Applications
 
-This repository provides streamlined tools for preparing machine learning and deep learning input datasets using the **HYSETS** database, **Daymet** climate data, and **in-situ gauge station** measurements.
+This repository provides streamlined tools for preparing machine learning and deep learning input datasets using the **HYSETS** database (Arsenault et al., 2024), **Daymet** climate data (Thornton et al., 2022), and **in-situ gauge station** measurements.
 
 ---
 
