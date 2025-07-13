@@ -28,6 +28,7 @@ The pipeline is tailored for data-driven hydrological modeling and predictive an
 - ✅ Integration of gauge station observations for supervised ML tasks
 - ✅ Extraction and preprocessing of static geospatial descriptors
 - ✅ Ready-to-use input structure for sequence-based DL models
+- ✅ DL fine-tuning for efficient and effective hydrological prediction
 
 ---
 
