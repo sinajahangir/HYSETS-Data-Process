@@ -1,5 +1,6 @@
 # HYSETS-Data-Process
-Code for creating input data to ML/DL models for HYSETS catchments
+Code for creating input data to ML/DL models for HYSETS catchments, and LSTM model development for streamflow and water level prediction.
+The codes provided are general purpose (can be tweaked to be used for all HYSETS catchments), but have been explicitly developed for gauge 02GA014 in Ontario, CA
 
 # HYSETS Input Processing for ML/DL Applications
 
@@ -27,6 +28,12 @@ The pipeline is tailored for data-driven hydrological modeling and predictive an
 - ✅ Integration of gauge station observations for supervised ML tasks
 - ✅ Extraction and preprocessing of static geospatial descriptors
 - ✅ Ready-to-use input structure for sequence-based DL models
+
+---
+
+## Fine-Tuning
+
+Sample code is provided for fine-tuning an LSTM model trained on >390 catchments in CONUS for a single catchment in Canada
 
 ---
 ## Reference
