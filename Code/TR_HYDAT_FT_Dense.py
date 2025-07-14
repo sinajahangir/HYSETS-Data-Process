@@ -137,7 +137,7 @@ class TimeSeriesDataset(Dataset):
         target = self.targets[idx + self.seq_length - 1]  # Align target with the end of the sequence
         return sequence, target
 #%%
-#data preperation
+#data preparation
 columns=df_train_tr.columns.to_list()
 if var_int=='wl':
     columns.remove('q')
