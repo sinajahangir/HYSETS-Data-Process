@@ -337,7 +337,7 @@ for ii in range(0,1):
 
 
   temp_xx=np.asarray(df_test_tr[df_test['basin_id']==ii].loc[:, columns])
-  temp_yy=np.asarray(df_test_tr[df_test['basin_id']==ii]['q']).reshape((-1,1))
+  temp_yy=np.asarray(df_test_tr[df_test['basin_id']==ii][var_int]).reshape((-1,1))
   xx_,yy_=split_sequence_multi_train(temp_xx,temp_yy,365,0,mode='seq')
   X_test=torch.tensor(xx_,dtype=torch.float32)
   Y_test=torch.tensor(yy_,dtype=torch.float32)
@@ -414,8 +414,8 @@ for ii in range(0,1):
     
     
     
-    # Generate datetime index ending on 2018-12-31
-    end_date = pd.to_datetime("2023-12-30")
+    # Generate datetime index ending on 2023-12-30
+    end_date = pd.to_datetime("2023-12-30") #change this based on the data record
     n = len(obs)
     dates = pd.date_range(end=end_date, periods=n, freq='D')
     # Compute metrics
