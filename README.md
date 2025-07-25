@@ -36,6 +36,10 @@ The pipeline is tailored for data-driven hydrological modeling and predictive an
 
 Sample code is provided for fine-tuning an LSTM model trained on >390 catchments in CONUS for a single catchment in Canada
 
+## Meta-Learning
+
+A probabilistic meta-learner (e.g., Gaussian) is developed for combining the water level forecast of the foundation model and the LSTM simulation model
+
 ---
 ## Reference
 
